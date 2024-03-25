@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#EBE0C0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/register"/>
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@drawable/button"
+        android:hint="@string/user_name"
+        android:inputType="text"
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/ediEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/button"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="@string/password"
+        android:inputType="number"
+        android:paddingStart="20dp" />
+
+   <LinearLayout
+       android:layout_gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/btn1"
+           android:background="@color/blue"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/sign_up" />
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/btn2"
+
+           android:layout_marginStart="20dp"
+           android:background="@color/blue"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/log_in" />
+   </LinearLayout>
+
+
+    <RatingBar
+        android:layout_marginTop="20dp"
+        android:id="@+id/ratingBar2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

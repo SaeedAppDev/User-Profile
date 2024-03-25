@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">صارف پروفائل</string>
+    <string name="user_name">نام</string>
+    <string name="email">ای میل</string>
+    <string name="password">پاس ورڈ</string>
+    <string name="sign_up">سائن اپ</string>
+    <string name="log_in">لاگ ان کریں</string>
+
+</resources>
